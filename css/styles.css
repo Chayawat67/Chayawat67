@@ -5,7 +5,7 @@ body {
 
 header nav.navbar .navbar-brand.brand-mungming {
     font-family: 'Alfa Slab One', cursive, serif;
-    color: hwb(0 9% 1%); 
+    color: lab(0.17% 0.78 0.28); 
     font-size: 42px;
     letter-spacing: 1px;
     font-weight: normal;
