@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MUNGMING - Summer Getaway</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="../https://fonts.googleapis.com">
+    <link rel="preconnect" href="../https://fonts.gstatic.com" crossorigin>
+    <link href="../https://fonts.googleapis.com/css2?family=Alata&family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+
+   
+</head>
+<body>
+    <header class="container-fluid bg-white p-0">
+        <nav class="navbar navbar-expand-md py-3">
+          <div class="container">
+            <a class="navbar-brand brand-mungming" href="#">MUNGMING</a>
+            
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+              <ul class="navbar-nav gap-lg-4 fw-semibold text-uppercase font-sm">
+                <li class="nav-item">
+                  <a class="nav-link text-dark active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Mans</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Women</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Accessories</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="d-none d-md-flex gap-3 align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                  <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+                </svg>
+            </div>
+          </div>
+        </nav>
+    </header>
+    
+    <section class="container-fluid p-0 hero-section position-relative">
+      
+      <div id="heroCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../imgs/621310248_02_4.png" class="d-block w-100 hero-bg-img" alt="Summer Getaway Slide 1">
+          </div>
+          <div class="carousel-item">
+            <img src="../imgs/621310248_02_2.png" class="d-block w-100 hero-bg-img" alt="Summer Getaway Slide 2">
+          </div>
+          <div class="carousel-item">
+            <img src="../imgs/621310248_02_3.png" class="d-block w-100 hero-bg-img" alt="Summer Getaway Slide 3">
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="hero-overlay position-absolute top-50 translate-middle-y">
+         <div class="hero-subtitle text-uppercase">Summer Getaway</div>
+         <h1 class="hero-title fw-bold">Holiday sales</h1>
+         <a href="#" class="btn-discover text-decoration-none d-inline-block">DISCOVER NOW</a>
+      </div>
+      
+ <section class="container mt-3 mb-5">
+    <div>CM CAFE</div>
+    <div>YOUR ORDER</div>
+    <form>
+        <!-- แถวที่ 1: ชื่อลูกค้า - เบอร์โทร -->
+        <div class="row mb-3">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <label for="name">ชื่อลูกค้า</label>
+                <input type="text" class="form-control" id="name" placeholder="name">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <label for="phone">เบอร์โทร</label>
+                <input type="text" class="form-control" id="phone" placeholder="xxx-xxxx-xxx">
+            </div>
+        </div>
+
+        <!-- แถวที่ 2: อีเมล - ประเภทเครื่องดื่ม -->
+        <div class="row mb-3">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <label for="email">อีเมล</label>
+                <input type="email" class="form-control" id="email" placeholder="piemungtor@gmail.com">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <label for="drinkType">ประเภทเครื่องดื่ม</label>
+                <select class="form-control" id="drinkType">
+                    <option value="">เลือกประเภท</option>
+                    <option value="coffee">กาแฟ</option>
+                    <option value="tea">ชา</option>
+                    <option value="smoothie">สมูทตี้</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- แถวที่ 3: เมนูเครื่องดื่ม - ขนาดแก้ว -->
+        <div class="row mb-3">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <label for="drinkMenu">เมนูเครื่องดื่ม</label>
+                <select class="form-control" id="drinkMenu">
+                    <option value="">เลือกเมนู</option>
+                    <option value="espresso">เอสเพรสโซ</option>
+                    <option value="latte">ลาเต้</option>
+                    <option value="green-tea">ชาเขียว</option>
+                </select>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <label class="d-block">ขนาดแก้ว</label>
+                <div class="form-check form-check-inline mt-2">
+                    <input class="form-check-input" type="radio" name="cupSize" id="size1" value="1">
+                    <label class="form-check-label" for="size1">S</label>
+                </div>
+                <div class="form-check form-check-inline mt-2">
+                    <input class="form-check-input" type="radio" name="cupSize" id="size2" value="2">
+                    <label class="form-check-label" for="size2">L</label>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+</div>
+            </div> 
+           </div>
+
+
+
+        </form>
+  
+   
+
+    </section>
+
+    <footer class="container-fluid p-0">
+      <div class="row m-0">
+        <div class="col-12 p-0 position-relative">
+          <img src="../imgs/621310248_33.jpg" class="w-100 ig-img">
+          <div class="ig-circle position-absolute top-50 start-50 translate-middle">
+              FOLLOW US @<br>INSTAGRAM
+          </div>
+        </div>
+      </div>
+
+      <div class="row m-0 foot-menu justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+            <h6 class="fw-bold mb-4">INFORMATION</h6>
+            <ul class="list-unstyled foot-link">
+              <li>About Us</li>
+              <li>Careers</li>
+              <li>Affiliate</li>
+              <li>Responsibility</li>
+              <li>Contact Us</li>
+            </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-12 mb-4">
+            <h6 class="fw-bold mb-4">CUSTOMER CARE</h6>
+            <ul class="list-unstyled foot-link">
+              <li>Returns</li>
+              <li>Shopping</li>
+              <li>FAQ</li>
+              <li>Size Guide</li>
+              <li>Track Orders</li>
+            </ul>
+        </div>
+        
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h6 class="fw-bold mb-4">NEWSLETTER</h6>
+            <p class="text-muted mb-3" style="font-size: 14px;">Subscribe to get daily news & more gif</p>
+            
+            <form class="d-flex">
+                <input type="email" class="form-control sub-input" aria-label="Email">
+                <button type="button" class="btn sub-btn">SUBSCRIBE</button>
+            </form>
+            
+            <div class="soc-icons mt-3">
+                <span class="soc-circle"></span>
+                <span class="soc-circle active"></span>
+                <span class="soc-circle"></span>
+                <span class="soc-circle"></span>
+                <span class="soc-circle"></span>
+            </div>
+        </div>
+      </div>
+
+      <div class="row m-0 copyright">
+        <div class="col-12">Copyright 2026 Mungming. All right reserved.</div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
